@@ -38,7 +38,7 @@ class Login extends CI_Controller{
 
 				$this->session->set_userdata($sess_data);
 
-				redirect(base_url());
+				redirect(base_url(Home));
 
 			}else{
 				redirect(base_url('login'));
